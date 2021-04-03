@@ -8,8 +8,10 @@ int main() {
       printf("Enter n%d: ", i);
       scanf("%d",&number);
 
-      // if the user enters a negative number, break the loop
+      /// if the user enters a negative number, break the loop
       if (number < 0) {
+         continue;
+      } if (number < 0) {
          break;
       }
 
