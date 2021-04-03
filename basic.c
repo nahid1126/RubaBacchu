@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    /*int i;
+    for(i=1;i<=100;i++){
+        printf("%d ",i);
+    }
+
+    printf("\n\n%d",i);  */
+
+    for(int i=1;i<=100;i+=2){
+        printf("%d ",i);
+    }
+
+    return 0;
+}
